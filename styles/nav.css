@@ -1,0 +1,39 @@
+#navbar {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.7rem 0;
+  background: transparent;
+  user-select: none;
+  font-weight: 200;
+  color: #fff;
+}
+
+#navbar #nav-left a {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+#navbar .nav-item {
+  padding-bottom: 1rem;
+  border: solid transparent;
+  border-width: 0 0 0.2rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#navbar #nav-right {
+  display: flex;
+}
+
+#navbar #nav-right .nav-item a {
+  margin-right: 2rem;
+  font-weight: 200;
+  font-size: 1.8rem;
+  color: #fff;
+  padding: 0.8rem;
+}
