@@ -18,7 +18,8 @@ html {
 a {
   text-decoration: none;
 }
+
 #header {
   width: 100%;
-  background-color: black;
+  position: absolute;
 }
