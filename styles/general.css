@@ -17,9 +17,19 @@ html {
 }
 a {
   text-decoration: none;
+  cursor: pointer !important;
 }
 
 #header {
   width: 100%;
   position: absolute;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  display: flex;
+  flex-direction: column;
 }

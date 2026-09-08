@@ -45,3 +45,47 @@ h1 {
 .city {
   font-weight: 400;
 }
+.top .search-container {
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-top: 3.4rem;
+  height: 5.4rem;
+  border: 1px solid rgb(232, 232, 232);
+  align-items: center;
+}
+.top .search-container input {
+  border: none;
+}
+.search-container > div {
+  display: flex;
+  align-items: center;
+}
+
+.top .search-container .location {
+  width: 24rem;
+  justify-content: space-around;
+  padding: 0 1rem;
+}
+.top .search-container .location svg {
+  color: rgb(255, 126, 139);
+}
+.top .search-container .search {
+  width: 53rem;
+}
+.top .search-container .search-icon svg {
+  color: rgb(130, 130, 130);
+}
+.top .search-container .search-icon {
+  width: 6rem;
+  margin: -1px -0.6rem -1px -1px;
+}
+.top .search-container .line {
+  height: 2rem;
+  width: 0rem;
+  border: 0.05rem solid rgb(207, 207, 207);
+}
+.top .search-container .search-box {
+  width: 100%;
+  font-size: 1.4rem;
+  border-radius: 0.8rem;
+}
