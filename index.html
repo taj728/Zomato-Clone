@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/options.css" />
     <link rel="stylesheet" href="./styles/collection.css" />
     <link rel="stylesheet" href="./styles/localities.css" />
+    <link rel="stylesheet" href="./styles/appsection.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -329,6 +330,71 @@
         </div>
       </section>
     </main>
+    <div class="app-section">
+      <div class="app-content">
+        <!-- left part -->
+        <div class="phone-image">
+          <img
+            src="https://chandramouli-reddy.github.io/Zomato-homepage-HTML-CSS-/Zomato_footer_1-removebg-preview.png"
+            alt="app-image"
+          />
+        </div>
+
+        <!-- right part -->
+        <div class="app-description">
+          <div class="heading">Get the Zomato app</div>
+          <div class="instruction">
+            We will send you a link, open it one your phone to download the app.
+          </div>
+          <div class="app-options">
+            <div class="option1">
+              <input type="radio" name="option" id="email-option" />
+              <label for="email-option">Email</label>
+            </div>
+
+            <div class="option1">
+              <input type="radio" name="option" id="phone-option" />
+              <label for="phone-option">Phone</label>
+            </div>
+          </div>
+          <div class="selected-option">
+            <div class="email">
+              <input
+                type="email"
+                name="email"
+                id="email-input"
+                placeholder="Email"
+              />
+              <button>Share app link</button>
+            </div>
+          </div>
+          <div class="caption">Download app from</div>
+          <div class="store-link">
+            <!-- Google Play -->
+            <a
+              href="https://play.google.com/store/apps/details?id=com.application.zomato"
+              target="_blank"
+            >
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Google_Play_Store_badge_EN.svg"
+                alt="Get it on Google Play"
+              />
+            </a>
+
+            <!-- App Store -->
+            <a
+              href="https://apps.apple.com/in/app/zomato-food-delivery-dining/id434613896"
+              target="_blank"
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+                alt="Download on the App Store"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="./script.js"></script>
     <script>
