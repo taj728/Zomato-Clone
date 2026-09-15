@@ -56,3 +56,20 @@
 .locality:hover {
   box-shadow: rgba(28, 28, 28, 0.08) 0px 4px 8px;
 }
+
+@media (max-width: 800px) {
+  .localities-list {
+    flex-direction: column;
+  }
+
+  .locality {
+    width: 100%;
+  }
+
+  .localities .heading {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin-bottom: 2rem;
+  }
+}

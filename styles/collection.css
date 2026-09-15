@@ -96,3 +96,27 @@
   align-items: center;
   gap: 15px;
 }
+
+@media (max-width: 800px) {
+  .see-more {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .collections .heading-2 {
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
+
+  .collection-desc h6 {
+    font-size: 1.2rem;
+  }
+  .collection {
+    max-width: 45%;
+    height: 17.7rem;
+  }
+  .collections-list {
+    flex-wrap: wrap;
+  }
+}

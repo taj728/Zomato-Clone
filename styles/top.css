@@ -89,3 +89,41 @@ h1 {
   font-size: 1.4rem;
   border-radius: 0.8rem;
 }
+
+@media (max-width: 800px) {
+  .zomato-logo {
+    height: 3rem !important;
+    width: 16rem !important;
+  }
+  main .top .search-container {
+    flex-direction: column;
+    width: calc(100% - 2.4rem);
+    border-radius: 0.8rem;
+  }
+  main .top .search-container .location {
+    margin-top: 1.2rem;
+    margin-bottom: 0.8rem;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2rem;
+    height: 5rem;
+  }
+  main .search-container .location input {
+    flex: 1;
+  }
+  main .search-container .search {
+    margin-top: 1.8rem;
+    background-color: white;
+    padding: 1.5rem 1rem;
+    width: 100% !important;
+    justify-content: space-between;
+    border-radius: 0.8rem;
+  }
+  main .search-container .search svg {
+    width: fit-content;
+  }
+
+  main .search-container .search input {
+    margin-left: 1.5rem;
+  }
+}

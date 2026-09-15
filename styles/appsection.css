@@ -126,3 +126,20 @@ input[type="radio"] {
   height: 4rem;
   cursor: pointer;
 }
+
+@media (max-width: 800px) {
+  .app-section {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .app-section .app-content {
+    margin-top: 7.5rem;
+    max-width: 42.4rem;
+    margin: 0px 2.4rem;
+  }
+
+  .phone-image {
+    display: none !important;
+  }
+}

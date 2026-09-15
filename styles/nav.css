@@ -40,7 +40,32 @@
 #navbar a:hover {
   cursor: pointer;
 }
-/* #navbar {
-  position: relative;
-  z-index: 1;
-} */
+.user-icon {
+  border: 1px solid rgb(207, 207, 207);
+  height: 3.2rem;
+  width: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: rgb(239, 79, 95);
+  display: none;
+}
+
+@media (max-width: 800px) {
+  #navbar {
+    justify-content: flex-end;
+    padding: 0 1rem;
+    width: 100%;
+    height: 5.6rem;
+  }
+  .user-icon {
+    display: flex;
+  }
+  #nav-left {
+    display: none !important;
+  }
+  #nav-right {
+    display: none !important;
+  }
+}
