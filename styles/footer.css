@@ -6,6 +6,11 @@ footer {
   justify-content: center;
 }
 
+footer h6,
+footer li {
+  white-space: nowrap;
+}
+
 .footer-data {
   width: 100%;
   max-width: 110rem;
@@ -56,9 +61,8 @@ footer {
 }
 
 .footer-links {
-  position: relative;
-  flex: 1;
   max-width: 18.3333%;
+  width: auto;
 }
 
 .footer-links ul {
@@ -156,7 +160,7 @@ footer .top-section .logo img {
   }
 
   .middle-section .footer-links {
-    flex: 0 0 50%;
+    width: 100%;
     max-width: 50%;
     margin-bottom: 3rem;
     font-size: 1.6rem;
