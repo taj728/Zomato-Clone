@@ -113,12 +113,12 @@ input[type="radio"] {
   font-size: 1.4rem;
 }
 
-.store-link {
+.app-section .store-link {
   display: flex;
   gap: 2px;
 }
 
-.store-link a img {
+.app-section .store-link a img {
   object-fit: contain;
   position: relative;
   max-width: 100%;

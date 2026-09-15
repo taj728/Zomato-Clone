@@ -37,7 +37,10 @@
   padding: 0.8rem;
   font-weight: 200;
 }
-#navbar #nav-left a,
-#navbar #nav-right .nav-item a {
+#navbar a:hover {
   cursor: pointer;
 }
+/* #navbar {
+  position: relative;
+  z-index: 1;
+} */

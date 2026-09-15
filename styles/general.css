@@ -5,6 +5,7 @@
 }
 body {
   overflow-x: hidden;
+  user-select: none;
 }
 html {
   font-family: "Open Sans", sans-serif;
@@ -23,6 +24,7 @@ a {
 #header {
   width: 100%;
   position: absolute;
+  z-index: 1;
 }
 
 .row {
