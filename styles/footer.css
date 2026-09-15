@@ -6,11 +6,6 @@ footer {
   justify-content: center;
 }
 
-footer h6,
-footer li {
-  white-space: nowrap;
-}
-
 .footer-data {
   width: 100%;
   max-width: 110rem;

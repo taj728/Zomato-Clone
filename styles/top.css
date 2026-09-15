@@ -89,6 +89,10 @@ h1 {
   font-size: 1.4rem;
   border-radius: 0.8rem;
 }
+/* .map-pin {
+  width: clamp(18px, 2vw, 24px);
+  height: clamp(18px, 2vw, 24px);
+} */
 
 @media (max-width: 800px) {
   .zomato-logo {
